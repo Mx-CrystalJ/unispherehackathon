@@ -1721,3 +1721,23 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'event_list' not found. 'even
 2025-01-19 19:44:48,954 - INFO - Watching for file changes with StatReloader
 2025-01-19 19:48:06,761 - INFO - Watching for file changes with StatReloader
 2025-01-19 19:48:48,396 - INFO - Watching for file changes with StatReloader
+2025-04-02 23:41:50,238 - INFO - Watching for file changes with StatReloader
+2025-04-02 23:42:10,310 - ERROR - Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Crystal Johnson\OneDrive - University of Wolverhampton\2023-4\2024 Hobbies\Work\Dean Crystal Clear Group\vscode-projects\unispherehackathon\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Crystal Johnson\OneDrive - University of Wolverhampton\2023-4\2024 Hobbies\Work\Dean Crystal Clear Group\vscode-projects\unispherehackathon\.venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Crystal Johnson\OneDrive - University of Wolverhampton\2023-4\2024 Hobbies\Work\Dean Crystal Clear Group\vscode-projects\unispherehackathon\.venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Crystal Johnson\OneDrive - University of Wolverhampton\2023-4\2024 Hobbies\Work\Dean Crystal Clear Group\vscode-projects\unispherehackathon\.venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2025-04-02 23:42:10,655 - WARNING - Bad Request: /
+2025-04-02 23:45:27,359 - INFO - C:\Users\Crystal Johnson\OneDrive - University of Wolverhampton\2023-4\2024 Hobbies\Work\Dean Crystal Clear Group\vscode-projects\unispherehackathon\unisphere\settings.py changed, reloading.
+2025-04-02 23:45:28,446 - INFO - Watching for file changes with StatReloader
+2025-04-02 23:46:09,001 - INFO - C:\Users\Crystal Johnson\OneDrive - University of Wolverhampton\2023-4\2024 Hobbies\Work\Dean Crystal Clear Group\vscode-projects\unispherehackathon\unisphere\settings.py changed, reloading.
+2025-04-02 23:46:10,137 - INFO - Watching for file changes with StatReloader
